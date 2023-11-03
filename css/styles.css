@@ -1,0 +1,101 @@
+:root {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  width: min(42.8rem, 90%);
+  text-align: center;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  margin: 0 auto;
+  margin-top: -12rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: normal;
+  color: #34355B;
+}
+main p {
+  margin-top: 1.6rem;
+  margin-bottom: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(52, 53, 91, 0.8);
+}
+main form {
+  display: flex;
+  justify-content: center;
+}
+main form input {
+  width: 5rem;
+  border-radius: 0.4rem 0rem 0rem 0.4rem;
+  background: #DCE2E9;
+}
+
+.screen1 button {
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
+  color: #FFFFFF;
+  background: #7879F1;
+  transition: background 0.3s;
+}
+.screen1 button:hover {
+  background: #5252a2;
+}
+
+.screen2 button {
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  color: #FFFFFF;
+  background: var(--iris-80, #7879F1);
+  transition: background 0.3s;
+}
+.screen2 button:hover {
+  background: #5252a2;
+}
+.screen2 h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 3.3rem;
+  color: #34355B;
+}
+
+input, button {
+  padding: 1.6rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}/*# sourceMappingURL=styles.css.map */
